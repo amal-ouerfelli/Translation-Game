@@ -14,9 +14,9 @@
 - npm (v6 or later)
 
 ### Clone the repository
-    ```bash
+```bash
    git clone https://github.com/your-username/translation-game.git 
-       ```
+```
 ### Backend Setup
 
 1. Navigate to the server directory:
