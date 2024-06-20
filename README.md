@@ -105,3 +105,28 @@ It took approximately 25 hours to build this application. The time was spent on 
 2. Frontend Development: 11 hours
 3. Testing and Debugging: 5 hours
 4. Documentation: 3 hours
+
+## Some screenshots & explanations
+
+It's about a race between two players, that's why two players should connect from two differents browsers.
+
+ This is the first screen when the player should input his username to start the game:
+<img width="905" alt="Capture1" src="https://github.com/amal-ouerfelli/MadBox/assets/72826619/d7526844-73e2-44eb-923d-595fd6d51f7c">
+
+When connecting, we have this screen displaying total points and list of connected players...
+The player who connect first will start playing
+<img width="917" alt="Capture2" src="https://github.com/amal-ouerfelli/MadBox/assets/72826619/5aafc4cf-22d1-4dec-adfe-85e8cdd19032">
+
+The other player should wait his turn that's why the input zone is disabled and the play button is not clickable:
+<img width="901" alt="Capture3" src="https://github.com/amal-ouerfelli/MadBox/assets/72826619/1cf7a73c-cb2b-4170-a1e9-3869d328a7d8">
+
+Total points updates in real time as well as total of good and wrong answers:
+<img width="870" alt="Capture4" src="https://github.com/amal-ouerfelli/MadBox/assets/72826619/680ab504-65ce-4e56-93bf-0a46bef7f780">
+
+When the player click on the total points, the answers history is displayed:
+<img width="865" alt="Capture5" src="https://github.com/amal-ouerfelli/MadBox/assets/72826619/9f34874c-9cf1-4082-8335-54fc1bb98ba7">
+
+When one player's score reached 0 or 20, the game will end and a modal displaying the winner is displayed.
+
+When a user navigate to a page different to http://localhost:3000, a page 404 not found is displayed:
+<img width="918" alt="Capture6" src="https://github.com/amal-ouerfelli/MadBox/assets/72826619/75b68cee-d6e9-4927-89b5-89c6180b50db">
