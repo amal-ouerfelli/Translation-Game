@@ -19,9 +19,9 @@ dotenv.config();
 
 dbConnection;
 
-if (!process.env.PORT) {
-  process.exit(1);
-}
+// if (!process.env.PORT) {
+//   process.exit(1);
+// }
 let players = {};
 let turnQueue = []; // Queue to manage turns
 let currentTurn = null; // Current player whose turn it is
@@ -70,7 +70,7 @@ io.on("connection", (socket) => {
   });
 });
 
-const PORT: number = parseInt(process.env.PORT as string, 10);
+const PORT: number = 7000;
 
 app.use(cors());
 app.use(express.json());
