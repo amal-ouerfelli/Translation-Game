@@ -16,17 +16,17 @@
 ### Clone the repository
     ```bash
    git clone https://github.com/your-username/translation-game.git 
-   ```
+       ```
 ### Backend Setup
 
 1. Navigate to the server directory:
     ```bash
    cd backend
-   ```
+       ```
 2. Install the dependencies:
     ```bash
    npm i
-   ```
+       ```
 
 ### Frontend Setup
 1. Navigate to the client directory:
@@ -50,7 +50,8 @@ The server will run on http://localhost:7000
     ```bash
    cd frontend
    npm start
-   ```
+       ```
+
 The client will run on http://localhost:3000
 
 3. Open your web browser and navigate to http://localhost:3000.
