@@ -15,7 +15,7 @@
 
 ### Clone the repository
 ```bash
-   git clone https://github.com/your-username/translation-game.git 
+   git clone https://github.com/amal-ouerfelli/MadBox.git
 ```
 ### Backend Setup
 
