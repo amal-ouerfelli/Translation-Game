@@ -22,11 +22,11 @@
 1. Navigate to the server directory:
     ```bash
    cd backend
-       ```
+    ```
 2. Install the dependencies:
     ```bash
    npm i
-       ```
+    ```
 
 ### Frontend Setup
 1. Navigate to the client directory:
