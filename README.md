@@ -46,6 +46,7 @@
    npm run dev
    ```
 The server will run on http://localhost:7000
+
 2. In a separate terminal, start the frontend:
     ```bash
    cd frontend
