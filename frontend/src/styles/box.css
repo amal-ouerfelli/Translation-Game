@@ -1,0 +1,101 @@
+.box {
+    width: 190px;
+    height: 100px;
+    background: #072e0a;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    justify-content: space-around;
+  }
+  
+  .box p {
+    z-index: 1;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  
+  .box::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, rgb(85, 255, 113), rgb(2, 121, 83));
+    height: 350%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+  }
+  
+  @keyframes rotBGimg {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .box::after {
+    content: '';
+    position: absolute;
+    background: #07182E;
+    ;
+    inset: 5px;
+    border-radius: 15px;
+  }  
+
+.redbox {
+    width: 190px;
+    height: 100px;
+    background: #072e0a;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    justify-content: space-around;
+  }
+  
+  .redbox p {
+    z-index: 1;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+  }
+ 
+  .redbox::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, rgb(255, 55, 0), rgb(121, 10, 2));
+    height: 350%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+  }
+  
+  @keyframes rotBGimg {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .redbox::after {
+    content: '';
+    position: absolute;
+    background: #07182E;
+    ;
+    inset: 5px;
+    border-radius: 15px;
+  }  
+
+  
+  

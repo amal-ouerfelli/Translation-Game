@@ -1,0 +1,70 @@
+.list {
+    width: 350px;
+    height: 250px;
+    background: #151515;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+ 
+  .title {
+    padding: 10px 15px;
+  }
+  
+  .user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+  
+  .user__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .user__container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-weight: 900;
+    font-size: 1.3em;
+    color: aliceblue;
+  }
+  
+  .name {
+    font-weight: 800;
+    color: aliceblue;
+  }
+  
+  .username {
+    font-size: 1.2em;
+    color: #ffffff;
+  }
+  
+  .image {
+    width: 60px;
+    height: 60px;
+    background: rgb(22,19,70);
+    background: linear-gradient(295deg, rgb(229, 229, 234) 41%, rgba(89,177,237,1) 100%);
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  
+  .user:hover {
+    background-color: #b3b6b6;
+  }
+  
+  .scoreList{
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+  }
